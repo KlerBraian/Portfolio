@@ -415,6 +415,15 @@ a {
     .background-about {
         height: 30vh;
     }
+    .proyectsAndTools-title1 {
+        position: static;
+        font-size: 2rem;
+    }
+
+    .proyectsAndTools-title2 {
+        position: static;
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 970px) {
@@ -478,15 +487,7 @@ a {
         min-height: 300px;
     }
 
-    .proyectsAndTools-title1 {
-        position: static;
-        font-size: 2rem;
-    }
-
-    .proyectsAndTools-title2 {
-        position: static;
-        font-size: 2rem;
-    }
+  
 
     .curse-container {
         gap: 1rem
