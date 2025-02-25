@@ -125,6 +125,7 @@ a {
 }
 
 .lang-button{
+    border: none;
     cursor: pointer;
     background-color: transparent;
     width: 2.5rem;
@@ -521,7 +522,6 @@ a {
     .lang-button{
         width: 1.8rem;
         height: 1.8rem;
-        background-color: #01c38d;
     }
     
 }
