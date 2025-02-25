@@ -1,6 +1,10 @@
+import { useContext } from "react"
+import { LanguageContext } from "../context/LanguageContext"
 
 
 const Proyectos = () => {
+
+ const {textData} = useContext(LanguageContext) 
 
 
   return (
@@ -8,7 +12,7 @@ const Proyectos = () => {
       <div className="border1"></div>
       <div className="border2"></div>
       <div className="border3"></div>
-      <h3 className='proyectsAndTools-title2' >Proyects</h3>
+      <h3 className='proyectsAndTools-title2' >{textData?.proyects?.title || "Proyects"}</h3>
       <div className="proyectos-container">
         <div className="proyectos1">
           <div className="links-proyects">
@@ -16,8 +20,9 @@ const Proyectos = () => {
             <a className="links-proyects" target='blanck' href="https://klerbraian.github.io/mantis-banda/"><i class="fi fi-rr-link"></i></a>
           </div>
           <div className="description-proyects">
-            <h4 className='proyect-title'>Mantis banda page</h4>
-            <p className="description-proyects-p">Pagina de banda con HTML y CSS</p>
+            
+            <h4 className='proyect-title'>{textData?.proyects?.cards[0]?.title || "Mantis band page"}</h4>
+            <p className="description-proyects-p">{textData?.proyects?.cards[0]?.text || "Band page with HTML and CSS"}</p>
           </div>
         </div>
         <div className="proyectos2">
@@ -26,8 +31,8 @@ const Proyectos = () => {
             <a className="links-proyects" target='blanck' href="https://klerbraian.github.io/tienda-mantis/"><i class="fi fi-rr-link"></i></a>
           </div>
           <div className="description-proyects">
-            <h4 className='proyect-title'>Tienda Mantis</h4>
-            <p className="description-proyects-p">Tienda e-commerce hecha con HTML, CSS y Javascript</p>
+            <h4 className='proyect-title'>{textData?.proyects?.cards[1]?.title || "Mantis shop"}</h4>
+            <p className="description-proyects-p">{textData?.proyects?.cards[1]?.text || "E-commerce store made with html, css and javascript"}</p>
           </div>
         </div>
         <div className="proyectos3">
@@ -36,8 +41,8 @@ const Proyectos = () => {
             <a className="links-proyects" target='blanck' href="https://kler-tienda-react.vercel.app/"><i class="fi fi-rr-link"></i></a>
           </div>
           <div className="description-proyects">
-            <h4 className='proyect-title'>Tienda Klercat React</h4>
-            <p className="description-proyects-p">Tienda e-commerce hecha con base en React JS</p>
+            <h4 className='proyect-title'>{textData?.proyects?.cards[2]?.title || "Klercat shop React Js"}</h4>
+            <p className="description-proyects-p">{textData?.proyects?.cards[2]?.text || "E-commerce store made with React Js"}</p>
           </div>
         </div>
         <div className="proyectos4">
@@ -46,8 +51,8 @@ const Proyectos = () => {
             <a className="links-proyects" target='blanck' href="https://klerbraian.github.io/Space-Invaders/"><i class="fi fi-rr-link"></i></a>
           </div>
           <div className="description-proyects">
-            <h4 className='proyect-title'>Space Invaders</h4>
-            <p className="description-proyects-p">Video juego realizado con HTML, CSS y Javascript</p>
+            <h4 className='proyect-title'>{textData?.proyects?.cards[3]?.title || "Space Invaders"}</h4>
+            <p className="description-proyects-p">{textData?.proyects?.cards[3]?.text || "Video game made with html, css and javascript"}</p>
           </div>
         </div>
       </div>

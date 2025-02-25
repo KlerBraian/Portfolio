@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { LanguageContext } from '../context/LanguageContext'
 
 const cursos = () => {
   const [curseImages, setcurseImages] = useState([])
@@ -10,9 +11,11 @@ const cursos = () => {
   }, [])
 
 
+  const {textData} = useContext(LanguageContext) 
+
   return (
     <div className='proyectsAndTools-container'>
-      <h3 className='proyectsAndTools-title1'>Cursos</h3>
+      <h3 className='proyectsAndTools-title1'>{textData?.courses?.title || "Courses"}</h3>
       <div className="border1-cursos"></div>
       <div className="border2-cursos"></div>
       <div className="border3-cursos"></div>

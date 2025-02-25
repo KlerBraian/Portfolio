@@ -1,0 +1,20 @@
+{
+    "header": {
+        "web-developer": "Web Designer & Developer "
+    },
+    "sobre-mi": {
+        "title" : "About me",
+         "text": "Hi 👋, I'm Braian Kler, born in Argentina I am a fun and determined developer to create efficient and functional solutions. I have trained in frontend and backend technologies. I am looking for opportunities to contribute to innovative projects, improve my skills and continue learning in the world of web development. Open to new challenges and experiences.",
+         "contact-me": "Contact me:"
+    },
+    "proyects": {
+        "title": "Proyects",
+        "cards": {
+            "title": "",
+            "text": ""
+        }
+    },
+    "curse": {
+        "title": "Courses"
+    }
+}

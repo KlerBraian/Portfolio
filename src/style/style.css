@@ -113,6 +113,25 @@ a {
 }
 
 
+.languages{
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    right: 5px;
+    gap: 1rem;
+}
+
+.lang-button{
+    cursor: pointer;
+    background-color: transparent;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+}
+
 .container-about {
     padding: 3rem;
     margin-inline: 20rem;
@@ -459,7 +478,6 @@ a {
 
     .curse-container {
         grid-template-columns: 1fr;
-        /* Los cursos en una sola columna */
     }
 
     .proyectos-container {
@@ -496,7 +514,19 @@ a {
     .cursos:first-child {
         height: 302px;
     }
+    .languages{
+        left: 5px;
+    }
+    
+    .lang-button{
+        width: 1.8rem;
+        height: 1.8rem;
+        background-color: #01c38d;
+    }
+    
 }
+
+
 
 @media (max-width: 600px) {
 
@@ -583,5 +613,15 @@ a {
     .proyectsAndTools-title1,
     .proyectsAndTools-title2 {
        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 360px) {
+    .header-container{
+        font-size: 10px;
+    }
+    .img-header{
+        width: 100px;
+        height: 150px;
     }
 }

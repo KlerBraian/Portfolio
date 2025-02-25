@@ -1,0 +1,34 @@
+{
+    "header": {
+        "webDeveloper": "Diseñandor y Desarrollador Web"
+    },
+    "about-me": {
+        "title": "Sobre mi",
+        "text": "Hola 👋, soy Braian Kler, nacido en Argentina. Soy un desarrollador divertido y decidido a crear soluciones eficientes y funcionales. Me he formado en tecnologías frontend y backend. Busco oportunidades para contribuir en proyectos innovadores, mejorar mis habilidades y seguir aprendiendo en el mundo del desarrollo web. Abierto a nuevos retos y experiencias",
+        "contact-me": "Contacteme:"
+    },
+    "proyects": {
+        "title": "Proyectos",
+        "cards": [
+            {
+                "title": "Pagina Banda Mantis",
+                "text": "Pagina de banda con HTML y CSS"
+            },
+            {
+                "title": "Tienda Mantis",
+                "text": "Tienda e-commerce hecha con HTML, CSS y Javascript"
+            },
+            {
+                "title": "Tienda Klercat React",
+                "text": "Tienda e-commerce hecha con base en React JS"
+            },
+            {
+                "title": "Invasores del espacio",
+                "text": "Video Juego realizado con HTML, CSS y Javascript"
+            }
+        ]
+    },
+    "courses": {
+        "title": "Cursos"
+    }
+}
