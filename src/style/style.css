@@ -39,7 +39,7 @@ h4 {
 }
 
 p {
-    color: #696a6c;
+    color: #b9bfce;
 }
 
 a {
@@ -542,7 +542,8 @@ a {
     }
 
     .container-about {
-        padding: 1rem;
+        padding: 0.8rem;
+        margin: 0;
     }
 
     .proyectos-container {
@@ -587,7 +588,7 @@ a {
     }
 
     .container-about {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .contact-container {
