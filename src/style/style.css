@@ -171,14 +171,14 @@ a {
 
 
 .image {
+    object-fit: cover;
     position: relative;
     left: 40px;
     top: -34px;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     animation: salirDelRecuadro 1s ease-out;
     transition: top 0.8s ease, left 0.8s ease;
-    ;
 }
 
 .image:hover {
@@ -189,10 +189,10 @@ a {
 
 .image-container {
     position: relative;
-    left: -50px;
-    bottom: -40px;
-    width: 204px;
-    height: 204px;
+    left: -30px;
+    bottom: -20px;
+    width: 179px;
+    height: 179px;
     border: 2px solid #01c38d;
 }
 
@@ -403,7 +403,7 @@ a {
 
 
 
-@media (max-width: 1250px),(max-height: 958px) {
+@media (max-width: 1250px),(max-height: 935px) {
 
     .container1 {
         height: auto;
