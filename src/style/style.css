@@ -403,8 +403,18 @@ a {
 
 
 
-@media (max-width: 1250px) {
+@media (max-width: 1250px),(max-height: 958px) {
 
+    .container1 {
+        height: auto;
+    }
+    .background-about{
+        height: auto;
+    }
+
+    .img-header{
+        top: 5px;
+    }
     .container-about {
         flex-direction: column;
         margin-inline: 5rem;
@@ -431,9 +441,6 @@ a {
         display: none;
     }
 
-    .background-about {
-        height: 30vh;
-    }
     .proyectsAndTools-title1 {
         position: static;
         font-size: 2rem;
