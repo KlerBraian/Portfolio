@@ -10,7 +10,7 @@ const {textData} = useContext(LanguageContext)
         <div className="background-about">
             <div className='container-about'>
                 <div className='image-container'>
-                    <img className='image' src="\public\img\perfil4x.jpeg" alt="" />
+                    <img className='image' src="/img/perfil4x.jpeg" alt="" />
                 </div>
                 <div className='about-text'>
                     <h3 className='about-h3'>{textData?.["about-me"]?.title || "About me"}</h3>
