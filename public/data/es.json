@@ -25,6 +25,10 @@
             {
                 "title": "Invasores del espacio",
                 "text": "Video Juego realizado con HTML, CSS y Javascript"
+            },
+             {
+                "title": "E-commerce backend Apirest",
+                "text": "Tienda e-commerce hecha desde backend"
             }
         ]
     },

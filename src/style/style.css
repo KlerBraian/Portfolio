@@ -147,6 +147,16 @@ a {
     gap: 1rem;
 }
 
+.tools {
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+    margin-bottom: 1rem;
+}
+.tools-p {
+    text-decoration: underline;
+}
+
 .contact-container {
     display: flex;
     align-items: center;
@@ -332,7 +342,8 @@ a {
 .proyectos1,
 .proyectos2,
 .proyectos3,
-.proyectos4 {
+.proyectos4,
+.proyectos5 {
     width: 570px;
     height: 250px;
     margin: 1rem;
@@ -359,6 +370,13 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.proyectos5 {
+   background: linear-gradient(to right, rgba(16, 33, 87, 0.5), rgba(37, 37, 36, 0.5)), url("/img/backend e-commerce.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .description-proyects {
     padding-inline: 0.3rem;
@@ -428,7 +446,8 @@ a {
     .proyectos1,
     .proyectos2,
     .proyectos3,
-    .proyectos4 {
+    .proyectos4,
+    .proyectos5 {
         width: 100%;
     }
 
