@@ -514,7 +514,7 @@ a {
     .proyectos2,
     .proyectos3,
     .proyectos4,
-    .proyecto5 {
+    .proyectos5 {
         width: 570px;
     }
 
@@ -580,7 +580,8 @@ a {
     .proyectos1,
     .proyectos2,
     .proyectos3,
-    .proyectos4 {
+    .proyectos4,
+    .proyectos5{
         width: auto;
     }
 
